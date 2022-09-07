@@ -7,8 +7,10 @@ h3 {
 footer {
   color: ColorFooter; }
 
-header h3 {
-  font-size: 30px; }
+header {
+  display: grid; }
+  header h3 {
+    font-size: 30px; }
 
 nav div ul li {
   font-size: 1rem;
