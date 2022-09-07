@@ -1,0 +1,22 @@
+//NESTING
+header{
+	h3{
+		font-size: 30px;
+	}
+}
+nav{
+    div{
+    		ul{
+    			li{
+    				font-size: 1rem;
+    				font-family: 'Silkscreen',
+            }
+        }
+    }
+}
+a{
+	text-decoration: none;
+	&:hover{
+		color: red;
+	}
+}

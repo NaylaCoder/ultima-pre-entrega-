@@ -1,0 +1,25 @@
+header {
+  background-color: black; }
+
+h3 {
+  color: colorPrimario; }
+
+footer {
+  color: ColorFooter; }
+
+header h3 {
+  font-size: 30px; }
+
+nav div ul li {
+  font-size: 1rem;
+  font-family: "Silkscreen"; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    color: red; }
+
+footer {
+  background-color: gray;
+  font-size: 1rem;
+  font-family: "Silkscreen"; }
