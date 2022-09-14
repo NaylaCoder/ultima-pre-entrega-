@@ -25,3 +25,47 @@ footer {
   background-color: gray;
   font-size: 1rem;
   font-family: "Silkscreen"; }
+
+header {
+  width: 1500px; }
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  body h1 {
+    font-size: 30px; } }
+
+.m-1 {
+  margin: 1px; }
+
+.m-2 {
+  margin: 2px; }
+
+.m-3 {
+  margin: 3px; }
+
+.m-4 {
+  margin: 4px; }
+
+.m-5 {
+  margin: 5px; }
+
+.font-Arial {
+  font-family: Arial; }
+
+.font-Euphoria Script {
+  font-family: Euphoria Script; }
+
+.colorPrimario {
+  color: blue; }
+
+.colorSecundario {
+  color: #eeccff; }
+
+.colorBlack {
+  color: black; }
+
+.colorWhite {
+  color: white; }
+
+div.encabezado {
+  text-align: center;
+  font-size: 35px; }

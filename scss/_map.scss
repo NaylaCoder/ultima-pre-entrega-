@@ -1,0 +1,22 @@
+$coloresPrincipales:(
+	colorPrimario: blue,
+	colorSecundario: #eeccff,
+	colorBlack: black,
+	colorWhite: white,
+	);
+@each $clave, $valor in $coloresPrincipales{
+	.#{$clave}{
+		color: $valor;
+	}
+}
+$estilos:(
+	color: red,
+	centro:center,
+	tFuente:35px,
+	paddingTop:10px
+);
+div.encabezado{
+	color:map-get($coloresPrincipales,colorSecundarios);
+	text-align: map-get($estilos,centro);
+	font-size: map-get($estilos,tFuente);
+}
