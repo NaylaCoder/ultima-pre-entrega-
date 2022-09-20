@@ -7,6 +7,8 @@ h3 {
 footer {
   color: ColorFooter; }
 
+header {
+  display: grid; }
   header h3 {
     font-size: 30px; }
 

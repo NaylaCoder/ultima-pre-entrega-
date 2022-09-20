@@ -1,5 +1,0 @@
-@each $familiaTipografica in Arial, Euphoria Script {
-	.font-#{$familiaTipografica}{
-		font-family: #{$familiaTipografica};
-	}
-}
